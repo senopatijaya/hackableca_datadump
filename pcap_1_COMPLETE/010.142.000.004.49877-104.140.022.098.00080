@@ -1,0 +1,66 @@
+GET /challenges HTTP/1.1
+Host: hackable.ca
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://hackable.ca/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=7jpvl7ef3nqi57v0dhjsr4slck; XSRF-TOKEN=eyJpdiI6InpvZDdHeUlheUdmc1ZLR1l3N2dLOVE9PSIsInZhbHVlIjoiWjdlV25YbFpiZUV5eXFLczVJWWlaVzFkQVdqUWJvOXZiS0VndHdHcXN2XC9LQTNZOTdcLyt4MSsyTm5YUkZ6cXZoZlpWN2hSbDJoTFJWelZGYWQyUHA2UT09IiwibWFjIjoiNjEyNGYzZGUzMjk0YWNiMGNjNGExYWQyYTYyMTdkNDI5NzYyMzdiZGY4ZjcxODQ4Y2RmOWM3NmYzMDY4NWMzMyJ9; laravel_session=eyJpdiI6IlVhSU1TY0hPUWRKTThjOWtZNWlwZVE9PSIsInZhbHVlIjoiTlNkdnNuVnp2bGlZdzBya3gyeU5xa3BPSXJFaHNwanhENWhMV0Vla1VBWTFENXlJXC9YMTFJQm1PMmw4YzhGZVR5dnpxcjVzckUwWUVZdGRHQm1ITlJRPT0iLCJtYWMiOiJlNTAyMjA0YTZkOTZkMmI4MWIwNjczYzhjNDI2ZGYzYTE2NmFiNmRmZTZmYTRkMWVjNzMzNDFmZDM1MTZjNzQzIn0%3D
+
+GET /leaderboards HTTP/1.1
+Host: hackable.ca
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://hackable.ca/challenges
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=7jpvl7ef3nqi57v0dhjsr4slck; XSRF-TOKEN=eyJpdiI6ImJpMU5lODZLWTgrV21SbXBEMHJlWUE9PSIsInZhbHVlIjoiWDk5QzU0amdLaDRuUkRRUHNCRG5nTVN2c21kcDlyR3VIRzlLbStaclFnUXNmQ1wvVkZ4QnFvUDdSVDdOQVhSYnJudEJHZ1VDbnlleWpPMUVvU1FObFhnPT0iLCJtYWMiOiIzOWYxMTdkYmJjNDZkMTg0YTJmNGE5N2VmN2Q2NWY2ZDJkZmUzZTM2MjQ5ZjY0ZGE0ZDZlYWFmNDdkOGU4ZDc2In0%3D; laravel_session=eyJpdiI6IlJEZ3lzcjg1cVR3VlBkemo2OG96WXc9PSIsInZhbHVlIjoidXhVMjMxYkFGT2ZGQ2tFR21RY0twaThDQlZ0QnMrTmp4Ymd1MDNqYVF6MlNRUWpaaWNCcDJOazFsQzdUM0pNY0hHRk9tZEp5Sk44MXpwZTdBbU1WTEE9PSIsIm1hYyI6IjRmOWRlNzNmMzZmMDEzOTYyZjQxNWU4MDBlMWQ2YmZkZjBmYWNiZjY5NDQ2MDRjZTNlMTgyYjliZTNmNjczZWIifQ%3D%3D
+
+GET /register HTTP/1.1
+Host: hackable.ca
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://hackable.ca/leaderboards
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=7jpvl7ef3nqi57v0dhjsr4slck; XSRF-TOKEN=eyJpdiI6IlQxQkNIdXBlQ21mNGpsaU84UytNZUE9PSIsInZhbHVlIjoiWGlZdXI3TlUreVozU3hvelFXNFU4OG1FR2FqaUdmUlRZR1VHUHdjZTROakJCdld2YzdFdnhlRnhTN2RMWmFnbCtLWllIdlpVclNcL09sUDZmWXVTZlJBPT0iLCJtYWMiOiI1YzMwZjJmMDNjNGRiNjUzNDc3ZTY4NWE3YjUyMzVhNzFlNzQ5OGI3NWNmZDVkNTMzMzRmMTY0ZGRjMWJiYjQ5In0%3D; laravel_session=eyJpdiI6InN0eE9IR3ZCeEp6MitzMWdoV0tUNWc9PSIsInZhbHVlIjoiVjZtZnR5RDN1WEhpbktHNXV3TnZoQnQwVVwvb2p1OXRZQjhJVW92TG9uOFlVNjVmb2VqOGhWUGNqQWd1TWUxWlpQSHlpYjB1RFVidWtjaTZuSFIzZDNnPT0iLCJtYWMiOiI3YzMwNjI4NzkzZGVlYmVlNjcxOWYwZDVjNmIyNzk5N2QzM2Y4Yjk0YjM4YzQ0ZGRhOWY3MzdiNzNkOTRlZmNmIn0%3D
+
+GET /login HTTP/1.1
+Host: hackable.ca
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://hackable.ca/register
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=7jpvl7ef3nqi57v0dhjsr4slck; XSRF-TOKEN=eyJpdiI6InlVSVJkXC9CaVZnS24xXC9SMnRFeVZmdz09IiwidmFsdWUiOiJCSW9Hbjk5U0ZcL1Ezb1lNU0lzcFZlZE1Ja3JwNW1EZGRRRWxESFlyVm1ibkc3a2wrT29WQXVpQmp0XC9LY3hpdHhnUmh5WWtKM1JESFpOVnFNWXhGWjF3PT0iLCJtYWMiOiI1YTkzZGIwMDcxN2RkNWNhNWE5M2M1NzBkOWI4ZTFhNjVmYjRiYzA3MTZlNzgyMmM4ODVmM2E1MjNkNDAyZDhjIn0%3D; laravel_session=eyJpdiI6IlhoOTdFdWVTOGpkMXNMVlwvdEhcL2dHZz09IiwidmFsdWUiOiJvQ0tINFZxN0ZReXFBdys0UkFMeFBwUlY5ZU0xMmdBRUUxTXVSYklCaDRYRDRkVkx6Vk1yK3ZQY3IzcFBQaW5ZczVOK2VGNjNOT2dBK3RSK2xhZEZNZz09IiwibWFjIjoiNTk4NmU3NzNiZjU3YWVlMjJjYWQxMTVjNDdhYWFlODJkYTJhMDRjNGM3NGIwNjA2MTI3NmYxN2JhNDFlZDQ5NiJ9
+
+GET /leaderboards HTTP/1.1
+Host: hackable.ca
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://hackable.ca/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=7jpvl7ef3nqi57v0dhjsr4slck; XSRF-TOKEN=eyJpdiI6ImlDK1VzNk0zRDRIOXB2dVJ1NXFFMXc9PSIsInZhbHVlIjoiRklcLzZHcmxPQXBDUVwvbEViNEx5Y2pITVhcL0h4MGRoZXlnRWRmZVlOK3VaTlUzaWhsRHFjaDc5UU1aME53OWRpQ2hiaEc1YUpIeTZjUW96QUg0dFRpZnc9PSIsIm1hYyI6IjNkMWE2MmJlZmFjYzhmYjE0ZGYzNjI2Y2I5NWMzNmU4MGMwZGRjZDE0ZTgyZGQxMzk2ZGJjN2QwZTlkMmRlZmMifQ%3D%3D; laravel_session=eyJpdiI6IjJDcUFNcVBFczdtWWNxWmQzZWxyY2c9PSIsInZhbHVlIjoiOUVmVzJTRStXMG4wT0lJaVNpS0RsK2kxdnpkNkE2RytXTDlmYzdpT1R6XC9GV2YwUzVpZ1ZOcUVHbWpOeUpVRlBqSlNHaTQrME92aEJZTWZQY2NrXC9aUT09IiwibWFjIjoiMThlMzJjMmJiOTg1OWNkNWViNTZhYjQzNWIzOTlkYTI4N2VkMzI5N2ViM2YxZDVlOTc1NmE3ODkzZTQwYjk4ZiJ9
+
+GET /challenges HTTP/1.1
+Host: hackable.ca
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://hackable.ca/leaderboards
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=7jpvl7ef3nqi57v0dhjsr4slck; XSRF-TOKEN=eyJpdiI6IitnR0dDNnZJbEZrK3RHRmNFSE9lblE9PSIsInZhbHVlIjoieWE1NVU3SWtjd2kweHJBenlaUWZHUnR0SVlnTlBZWFhlRURmT3UxcGlKWm9PRWFOXC9UVjh2MkV4UG12b2RtcXJXdDg4TVVHXC9hOFlCOG1ibEt0UnJJZz09IiwibWFjIjoiNWVhZTgyNjljYmQ0Y2NiNmE2MDkzNzE1ZDk5OWE4YTVmMDIwZDM2MDFlNWI3OWNiYTBhZmIzMTdjNWFjYjAyMCJ9; laravel_session=eyJpdiI6IkFcL2tETk1aTE1LUGdsemNMWHhxNERRPT0iLCJ2YWx1ZSI6ImIxWTV3QUFpMDNcL0NodmthM042aUZQMVlSWUQ3MVlrT3J3RGtnQkFaUkp6UlRxbm8wZFRDdGVzSDMxVjQxVHBsekVzdFM5bVpSS0c5OU1BSHRSVytndz09IiwibWFjIjoiYzk5YTlkMjA3NjU4OTlhNDY4ZGRiZGE3ZmZhN2ExYWIxYjY2MTAwNTg1MTg1NmU3ZGUxN2RkMjY5MGU4YWE2ZiJ9
+

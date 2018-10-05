@@ -1,0 +1,10 @@
+GET /challenge.php HTTP/1.1
+Host: hackable.ca
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=7jpvl7ef3nqi57v0dhjsr4slck; XSRF-TOKEN=eyJpdiI6IklwVFpHSG43ZXgzejdtQWxiamNYeFE9PSIsInZhbHVlIjoiUTZIcjJUZzZqb1RweUw4b0VKZmZUMXBNY25qNlwveEp0akI4azhZckpLOUZKUWFZaDJZelJwQUtMYmF6K1pHbDBtUnZcL2lFNFJPZ1JcL3hpQXlUdjdkeXc9PSIsIm1hYyI6IjE1MTcwNzM4MzYyNjM3MmQ1ZGFjOWNjZWVhMTA5OTUxMTlhZjZiNGU2YjM4ZDk4N2RkOTZhNjU3YTczNmM5MjUifQ%3D%3D; laravel_session=eyJpdiI6ImRoamNEd0c3b1FnZXZWSW1Yd1NJa1E9PSIsInZhbHVlIjoiNjhiMWVrS0dhQlVZSjVFVTVuTVpHYmhNbXUzeUtPTWtnMytZSjZZb3RKbWN6YnFiTTlhOTZpS3luazFtOE5pNnNIYW9wREFCR1wvSkk5cHFSTVdhRm9RPT0iLCJtYWMiOiJjNDI4MWI3YTA5ZjViNWRjN2UzNTRkZWMxZjYyNzYyZGUzNzY3ZjY3ODAyOTFlNTE5NjEzZGU3NjFiMGU1YjgxIn0%3D
+

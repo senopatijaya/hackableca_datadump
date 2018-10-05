@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="hackable.ca Free hacking challenges. Earn points if you retrieve the flags">
+    <meta name="author" content="derekjohnvn">
+    
+
+    <title>Hackable.ca - Leaderboards</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://hackable.ca/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://hackable.ca/css/sticky-footer-navbar.css" rel="stylesheet">
+
+    <style>
+
+        </style>
+  </head>
+
+  <body>
+    <!-- Begin page content -->
+    <div class="container">
+     <header>
+      <!-- Fixed navbar -->
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Hackable.ca</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/challenges">Challenges</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/leaderboards">Leaderboards</a>
+            </li>
+                        <li class="nav-item ">
+              <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/register">Register</a>
+            </li>
+                        
+          
+          </ul>
+          
+        </div>
+      </nav>    </header>
+             <h1> Leaderboards</h1>
+
+        <br>
+
+        <table class="table  table-striped">
+        <thead>
+        <tr>
+        <th width="10%">Placement</th>
+        <th>Username</th>
+        <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+                
+                <tr>
+        <td>1 </td>
+        <td>faisley</td>
+        <td>9 </td>
+        </tr>
+        
+                <tr>
+        <td>2 </td>
+        <td>derekjohnvn</td>
+        <td>9 </td>
+        </tr>
+        
+                <tr>
+        <td>3 </td>
+        <td>Corsica</td>
+        <td>5 </td>
+        </tr>
+                </tbody>
+        </table>
+
+
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8582125392451630",
+    enable_page_level_ads: true
+  });
+</script>
+
+<span class="text-muted">Copyright hackable.ca 2018 </span>
+      </div>
+    </footer>
+
+    
+    
+   
+    <script src="http://hackable.ca/js/jquery-3.3.1.min.js"></script>
+    <script src="http://hackable.ca/js/bootstrap.min.js"></script>
+    <!-- flag{k33p_1t_s1mp13_8tup1d} -->
+  </body>
+</html>

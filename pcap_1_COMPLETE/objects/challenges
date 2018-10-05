@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="hackable.ca Free hacking challenges. Earn points if you retrieve the flags">
+    <meta name="author" content="derekjohnvn">
+    
+
+    <title>Hackable.ca - Challenges</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://hackable.ca/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://hackable.ca/css/sticky-footer-navbar.css" rel="stylesheet">
+
+    <style>
+
+    .chal_btn{
+    height:150px;
+    width:150px;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Begin page content -->
+    <div class="container">
+     <header>
+      <!-- Fixed navbar -->
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Hackable.ca</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/challenges">Challenges</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/leaderboards">Leaderboards</a>
+            </li>
+                        <li class="nav-item ">
+              <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/register">Register</a>
+            </li>
+                        
+          
+          </ul>
+          
+        </div>
+      </nav>    </header>
+             <br>
+        <h1> Challenges</h1>
+                
+        <h3>Web</h3>
+       
+        <button type="button" class="btn     btn-danger  chal_btn" data-toggle="modal" data-target="#kiss">
+        <strong>KISS</strong>
+        <br>5 points
+        </button>
+
+<!-- Modal -->
+<div class="modal fade" id="kiss" tabindex="-1" role="dialog" aria-labelledby="kiss" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+                <h5 class="modal-title">Web - KISS</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+        </div>
+        <div class="modal-body">
+        Challenge: Find the flag <br>
+        Points: 5<br>
+        <p>
+         
+        <p>You must be logged in to submit flag
+                </div>
+        <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+        </div>        <!-- Button trigger modal -->
+       
+<button type="button" class="btn  btn-danger  chal_btn" data-toggle="modal" data-target="#useragent">
+        <strong>User Agent</strong>
+        <br>4 points
+        </button>
+
+  
+
+        <!-- Modal -->
+        <div class="modal fade" id="useragent" tabindex="-1" role="dialog" aria-labelledby="useragent" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+                <h5 class="modal-title" id="useragenttitle">Web - User Agent</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+        </div>
+        <div class="modal-body">
+        Link: http://hackable.ca/useragent.php <br>
+        Points: 4 <br>
+        Challenge: Change the user-agent to hackableisawesome <br>
+        <p>
+
+         
+        <p>You must be logged in to submit flag
+                </div>
+        <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+        </div>        <br><p>
+        <h3>Crypto</h3>
+        <button type="button" class="btn     btn-danger  chal_btn" data-toggle="modal" data-target="#ciphers1">
+        <strong>Ciphers 1</strong>
+        <br>4 points
+        </button>
+
+<!-- Modal -->
+<div class="modal fade" id="ciphers1" tabindex="-1" role="dialog" aria-labelledby="ciphers1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+                <h5 class="modal-title" id="ciphers1">Crypt - Ciphers1</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+        </div>
+        <div class="modal-body">
+        Decrypt this: ljnbjalryqnabjanodw<br>
+        Points: 4<br>
+        <p>
+         
+        <p>You must be logged in to submit flag
+                </div>
+        <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+        </div>        <br><p>
+        <h3>Forensics</h3>
+        <button type="button" class="btn     btn-danger  chal_btn" data-toggle="modal" data-target="#intercepted">
+        <strong>Intercepted</strong>
+        <br>80 points
+        </button>
+
+<!-- Modal -->
+<div class="modal fade" id="intercepted" tabindex="-1" role="dialog" aria-labelledby="intercepted" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+                <h5 class="modal-title">Forensics - intercepted</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+        </div>
+        <div class="modal-body">
+        Challenge: Decode the .wav file for the message being transmited. <br>
+        File: <a href="/intercepted.wav" download>Intercepted.wav</a> <br>
+        Points: 80<br>
+        <p>
+         
+        <p>You must be logged in to submit flag
+                </div>
+        <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8582125392451630",
+    enable_page_level_ads: true
+  });
+</script>
+
+<span class="text-muted">Copyright hackable.ca 2018 </span>
+      </div>
+    </footer>
+
+    
+    
+   
+    <script src="http://hackable.ca/js/jquery-3.3.1.min.js"></script>
+    <script src="http://hackable.ca/js/bootstrap.min.js"></script>
+    <!-- flag{k33p_1t_s1mp13_8tup1d} -->
+  </body>
+</html>
